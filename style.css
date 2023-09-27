@@ -1,0 +1,65 @@
+:root{
+    --blue:#1566C0
+}
+
+/* font-family: 'Righteous', cursive;
+font-family: 'Roboto', sans-serif; */
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Righteous', cursive;
+}
+
+h2, h3, h4, h5, h6{
+    color: var(--blue);
+}
+
+h1{
+    font-size: 80px;
+    padding-top: 10%;
+}
+
+
+header{
+
+    background-image:background: rgb(0,0,0);
+    background:linear-gradient(0deg, rgba(231,231,231,0) 0%, rgba(0,0,0,1) 90%), url("./media/header_completo.jpg");
+
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-position-y: -10vh;
+}
+
+.line{
+    border-bottom: 3px solid rgb(255, 181, 8);
+}
+
+.card1{
+    
+    background-image:background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 48%, rgba(0,0,0,1) 100%), url(./media/1.png);
+}
+.card2{
+    
+    background-image:background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 48%, rgba(0,0,0,1) 100%), url(./media/2.png);
+}
+.card3{
+    
+    background-image:background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 48%, rgba(0,0,0,1) 100%), url(./media/3.png);
+}
+.card4{
+    
+    background-image:background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 48%, rgba(0,0,0,1) 100%), url(./media/4.png);
+}
