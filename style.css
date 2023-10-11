@@ -1,5 +1,5 @@
 :root{
-    --blue:#1566C0
+    --blue: #1566C0
 }
 
 /* font-family: 'Righteous', cursive;
@@ -12,7 +12,10 @@ font-family: 'Roboto', sans-serif; */
 body{
     margin: 0;
     padding: 0;
+    overflow-x:auto;
+    
 }
+
 
 h1, h2, h3, h4, h5, h6{
     font-family: 'Righteous', cursive;
@@ -67,3 +70,62 @@ header{
     background: rgb(0,0,0);
     background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 48%, rgba(0,0,0,1) 100%), url(./media/4.png);
 }
+
+.minicard{
+    height: fit-content;
+    width: fit-content;
+}
+
+.c-bold{
+    font-weight: 900;
+    font-family: 'Righteous', cursive;
+}
+
+.imgcerchio{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 4px solid var(--blue);
+    padding: 7px;
+}
+
+.linea{
+    border-left: 3px solid var(--blue);
+}
+
+.pallino::before{
+    
+        content: '';
+        height: 15px;
+        width: 15px;
+        border-radius: 50%;
+        border: 2px solid var(--blue);
+        position: absolute;
+        background-color: white;
+        left: calc(50% - 6px);
+        
+    }
+.pallino-s::before{
+    
+        content: '';
+        height: 15px;
+        width: 15px;
+        border-radius: 50%;
+        border: 2px solid var(--blue);
+        position: absolute;
+        background-color: white;
+        right:calc(50% - 8px);
+    }
+        
+        
+    .img-footer{
+        height: 1000px;
+        
+        
+        background-image:linear-gradient(180deg, rgba(255,255,255,1) 16%, rgba(255,255,255,0) 100%), url(./media/footer.jpg) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    
+        
+    }
